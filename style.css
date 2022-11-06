@@ -1,0 +1,394 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    width: 1440px;
+    height: 5150px;
+
+    background: #FFFFFF;
+  }
+.eatpig{
+  position: absolute;
+            width: 572px;
+            height: 401px;
+            left: 858px;
+            top: 107px;
+}
+.logotop{
+  position: absolute;
+        width: 163px;
+        height: 138px;
+        left: 25px;
+        top: -5px;
+}
+.logoname1{
+  font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        position: absolute;
+        width: 146px;
+        height: 25px;
+        left: 152px;
+        top: 52px;
+}
+.title1{
+  position: absolute;
+        width: 1072px;
+        height: 268px;
+        left: 95px;
+        top: 218px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 90px;
+        color: #263238;
+}
+.title2{
+  position: absolute;
+    width: auto;
+    height: 90px;
+    left: 97px;
+    top: 426px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+.flame1{
+  position: absolute;
+        width: 1291px;
+        height: 4330px;
+        left: 95px;
+        top: 600px;
+        
+        background: rgba(255, 221, 204, 0.25);
+        border-radius: 30px;
+}
+.flame2{
+  display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 11px 74px 11px 20px;
+        gap: 5px;
+        
+        position: absolute;
+        width: 130px;
+        height: 52px;
+        left: 106px;
+        bottom: 4524px;
+        
+        background: #FEE9DE;
+        border-radius: 50px;
+}
+.blogtype{
+  width: 90px;
+            height: 23px;
+            
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            
+            color: #EB5757;
+            
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+}
+.logobottom{
+  position: absolute;
+        width: 118px;
+        height: 90px;
+        left: 463px;
+        top: 4947px;
+}
+.slogan{
+  position: absolute;
+        width: auto;
+        height: 30px;
+        left: 598px;
+        top: 4977px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        
+        color: #333333;
+}
+#name{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 90px;
+  position: absolute;
+  width: auto;
+  height: 102px;
+
+  color: #263238;
+
+}
+.name1{
+  left: 600px;
+  top: 608px;
+  text-align: center;
+}
+.name2{
+  left: 431px;
+  top: 1453px;
+  text-align: center;
+}
+.name3{
+  left: 500px;
+  top: 2317px;
+  text-align: center;
+}
+.name4{
+    height: 102px;
+    left: 480px;
+    top: 3182px;
+}
+.name5{
+  height: 102px;
+  left: 600px;
+  top: 4045px;
+}
+#imgcontent{
+  width: 375px;
+  height: 295px;
+  border-radius: 20px;
+}
+.buffet1{
+  position: absolute;
+  left: 134px;
+  top: 728px;
+}
+.buffet2{
+  position: absolute;
+  left: 540px;
+  top: 728px;
+}
+.buffet3{
+  position: absolute;
+  left: 947px;
+  top: 728px;
+}
+.buffet4{
+  position: absolute;
+  left: 134px;
+  top: 1578px;
+}
+.buffet5{
+  position: absolute;
+  left: 540px;
+  top: 1578px;
+}
+.buffet6{
+  position: absolute;
+  left: 947px;
+  top: 1578px;
+}
+.buffet7{
+  position: absolute;
+  left: 134px;
+  top: 2442px;
+}
+.buffet8{
+  position: absolute;
+  left: 540px;
+  top: 2442px;
+}
+.buffet9{
+  position: absolute;
+  left: 947px;
+  top: 2442px;
+}
+.buffet10{
+  position: absolute;
+  left: 134px;
+  top: 3307px;
+}
+.buffet11{
+  position: absolute;
+  left: 540px;
+  top: 3307px;
+}
+.buffet12{
+  position: absolute;
+  left: 947px;
+  top: 3307px;
+}
+.buffet13{
+  position: absolute;
+  left: 134px;
+  top: 4171px;
+}
+.buffet14{
+  position: absolute;
+  left: 540px;
+  top: 4171px;
+}
+.buffet15{
+  position: absolute;
+  left: 947px;
+  top: 4171px;
+}
+#content{
+  text-indent: 50px;
+  position: absolute;
+  width: auto;
+  height: 170px;
+  left: 379px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #333333;
+}
+.buf1{
+  top: 1066px;
+}
+.buf2{
+  top: 1921px;
+}
+.buf3{
+  top: 2784px;
+}
+.buf4{
+  top: 3651px;
+}
+.buf5{
+  top: 4512px;
+}
+.map1{
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 659px;
+  top: 1411px;
+}
+.map2{
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 659px;
+  top: 2244px;
+}
+.map3{
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 659px;
+  top: 3118px;
+}
+.map4{
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 659px;
+  top: 3983px;
+}
+.map5{
+  position: absolute;
+  width: 49px;
+  height: 50px;
+  left: 659px;
+  top: 4846px;
+}
+.facebook1{
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 732px;
+  top: 1409px;
+}
+.facebook2{
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 732px;
+  top: 2244px;
+}
+.facebook3{
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 732px;
+  top: 3118px;
+}
+.facebook4{
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 732px;
+  top: 3983px;
+}
+.facebook5{
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  left: 732px;
+  top: 4846px;
+}
+.myig{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 511px;
+  top: 5058px;
+}
+.myfb{
+  position: absolute;
+  width: 33px;
+  height: 26px;
+  left: 564px;
+  top: 5057px;
+}
+.mytw{
+  position: absolute;
+  width: 36px;
+  height: 31px;
+  left: 623px;
+  top: 5058px;
+}
+.boxmail{
+  box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 14px 20px;
+gap: 63px;
+
+position: absolute;
+width: 299px;
+height: 51px;
+left: 677px;
+top: 5046px;
+
+border: 1px solid #BDBDBD;
+border-radius: 60px;
+}
+.mail{
+  width: 219px;
+  height: 23px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.mailimg{
+  position: absolute;
+  width: 31px;
+  height: 33px;
+  left: 931px;
+  top: 5055px;
+}
+.view{
+  position: absolute;
+  left: 1400px;
+  top: 4500px;
+}
