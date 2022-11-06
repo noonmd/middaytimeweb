@@ -1,11 +1,30 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const path = require('path');
+const app = express();
+const PORT = process.env.PORT || 3000;
+app.use(express.static(__dirname));
+app.use('/', function (req, res, next) {
 
-app.get('/', (req, res) => {
-  res.send('Hello Midday!')
-})
+    var options = {
+        root: path.join(__dirname)
+    };
+    var fileName = 'middayblog.html';
+    res.sendFile(fileName, options, function (err) { 
+        if (err) {
+            next(err);
+        } else {
+            console.log('Sent:', fileName);
+            next();
+        }
+    });
+});
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+app.listen(PORT, function (err) {
+    if (err) console.log(err);
+    console.log("Server listening on PORT", PORT);
+});
+
+app.get('/', function (req, res) {
+    console.log("File Sent")
+    res.send();
+});
